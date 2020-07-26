@@ -1,9 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
  * NOMBRE: VENTANA DEL PROGRAMA
  * AUTORES: ANDRÉS BECERRA  Y FELIPE CHAVEZ
  * FECHA: 25 DE JULIO DE 2020
  */
+=======
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 =======
 >>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 package ejemplo;
@@ -13,6 +16,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+<<<<<<< HEAD
 <<<<<<< HEAD
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
@@ -47,6 +51,8 @@ public class Ventana extends JFrame {
 		
 		//SE CREA UN PANEL Y SE LE DA UN TAMAÑO, POSICIÓN Y SE AÑADE A LA VENTANA
 =======
+=======
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 import javax.swing.JScrollPane;
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
@@ -81,12 +87,16 @@ public class Ventana extends JFrame {
 		
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 720, 284);
+<<<<<<< HEAD
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
+=======
 >>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+<<<<<<< HEAD
 <<<<<<< HEAD
 		//SE CREA UN LABEL CON EL TÍTULO DEL PROGRAMA
 		JLabel lblHorarioViernes = new JLabel("Horario Viernes");
@@ -177,6 +187,8 @@ public class Ventana extends JFrame {
 	}
 	
 =======
+=======
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 		JLabel lblTítulo = new JLabel("Horario");
 		lblTítulo.setBounds(192, 12, 70, 15);
 		contentPane.add(lblTítulo);
@@ -191,5 +203,8 @@ public class Ventana extends JFrame {
 		table.setBounds(0, 39, 714, 96);
 		contentPane.add(table);
 	}
+<<<<<<< HEAD
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
+=======
 >>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 }

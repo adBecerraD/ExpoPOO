@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*
  * NOMBRE: CONTROLADOR DE ACCIONES
  * AUTORES: ANDRÉS BECERRA  Y FELIPE CHAVEZ
@@ -61,9 +62,14 @@ public class Controlador {
 		
 	}
 =======
+=======
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 package ejemplo;
 
 public class Controlador {
 
+<<<<<<< HEAD
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
+=======
 >>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 }
