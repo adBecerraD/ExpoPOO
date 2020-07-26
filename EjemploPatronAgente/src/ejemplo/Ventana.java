@@ -1,8 +1,11 @@
+<<<<<<< HEAD
 /*
  * NOMBRE: VENTANA DEL PROGRAMA
  * AUTORES: ANDRÉS BECERRA  Y FELIPE CHAVEZ
  * FECHA: 25 DE JULIO DE 2020
  */
+=======
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 package ejemplo;
 
 import java.awt.BorderLayout;
@@ -10,6 +13,7 @@ import java.awt.EventQueue;
 
 import javax.swing.JFrame;
 import javax.swing.JPanel;
+<<<<<<< HEAD
 import javax.swing.border.EmptyBorder;
 import javax.swing.JLabel;
 import javax.swing.JTable;
@@ -42,11 +46,48 @@ public class Ventana extends JFrame {
 		setBounds(100, 100, 315, 576);
 		
 		//SE CREA UN PANEL Y SE LE DA UN TAMAÑO, POSICIÓN Y SE AÑADE A LA VENTANA
+=======
+import javax.swing.JScrollPane;
+import javax.swing.border.EmptyBorder;
+import javax.swing.JLabel;
+import javax.swing.JTable;
+import javax.swing.table.DefaultTableModel;
+
+public class Ventana extends JFrame {
+
+	private JPanel contentPane;
+	private JTable table;
+
+	/**
+	 * Launch the application.
+	 */
+	public static void main(String[] args) {
+		EventQueue.invokeLater(new Runnable() {
+			public void run() {
+				try {
+					Ventana frame = new Ventana();
+					frame.setVisible(true);
+				} catch (Exception e) {
+					e.printStackTrace();
+				}
+			}
+		});
+	}
+
+	/**
+	 * Create the frame.
+	 */
+	public Ventana() {
+		
+		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		setBounds(100, 100, 720, 284);
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
 		contentPane.setLayout(null);
 		
+<<<<<<< HEAD
 		//SE CREA UN LABEL CON EL TÍTULO DEL PROGRAMA
 		JLabel lblHorarioViernes = new JLabel("Horario Viernes");
 		lblHorarioViernes.setBounds(105, 28, 134, 15);
@@ -135,4 +176,20 @@ public class Ventana extends JFrame {
 		return comboBox;
 	}
 	
+=======
+		JLabel lblTítulo = new JLabel("Horario");
+		lblTítulo.setBounds(192, 12, 70, 15);
+		contentPane.add(lblTítulo);
+		
+	    Object titulos []={"Encabezado 1", "Encabezado 2"};
+	    Object celdas [][]=new Object[4][2];
+	    JScrollPane scroll = new JScrollPane();
+	    JTable tabla=new JTable(celdas, titulos);
+	    
+			
+		
+		table.setBounds(0, 39, 714, 96);
+		contentPane.add(table);
+	}
+>>>>>>> 9e88f9a01d9c14f1615df2dcaead61105678e62b
 }
